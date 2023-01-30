@@ -14,6 +14,13 @@
 		470179AB2987FD39008E2000 /* ServiceProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470179AA2987FD39008E2000 /* ServiceProviderTests.swift */; };
 		470179B52987FD39008E2000 /* ServiceProviderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470179B42987FD39008E2000 /* ServiceProviderUITests.swift */; };
 		470179B72987FD39008E2000 /* ServiceProviderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470179B62987FD39008E2000 /* ServiceProviderUITestsLaunchTests.swift */; };
+		470179C42987FD55008E2000 /* shapestruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470179C32987FD55008E2000 /* shapestruct.swift */; };
+		470179C62987FD8F008E2000 /* addRide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470179C52987FD8F008E2000 /* addRide.swift */; };
+		470179C82987FDB0008E2000 /* sprides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470179C72987FDB0008E2000 /* sprides.swift */; };
+		470179CA2987FDC4008E2000 /* tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470179C92987FDC4008E2000 /* tabbar.swift */; };
+		470179CC2987FDDC008E2000 /* ridesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470179CB2987FDDC008E2000 /* ridesheet.swift */; };
+		470179CE2987FE0D008E2000 /* sprideinitv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470179CD2987FE0D008E2000 /* sprideinitv.swift */; };
+		470179D0298801ED008E2000 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 470179CF298801EC008E2000 /* Roboto-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		470179B02987FD39008E2000 /* ServiceProviderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServiceProviderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		470179B42987FD39008E2000 /* ServiceProviderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProviderUITests.swift; sourceTree = "<group>"; };
 		470179B62987FD39008E2000 /* ServiceProviderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProviderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		470179C32987FD55008E2000 /* shapestruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapestruct.swift; sourceTree = "<group>"; };
+		470179C52987FD8F008E2000 /* addRide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addRide.swift; sourceTree = "<group>"; };
+		470179C72987FDB0008E2000 /* sprides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sprides.swift; sourceTree = "<group>"; };
+		470179C92987FDC4008E2000 /* tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbar.swift; sourceTree = "<group>"; };
+		470179CB2987FDDC008E2000 /* ridesheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ridesheet.swift; sourceTree = "<group>"; };
+		470179CD2987FE0D008E2000 /* sprideinitv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sprideinitv.swift; sourceTree = "<group>"; };
+		470179CF298801EC008E2000 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +89,11 @@
 		4701798C2987FD37008E2000 = {
 			isa = PBXGroup;
 			children = (
+				470179CD2987FE0D008E2000 /* sprideinitv.swift */,
+				470179CB2987FDDC008E2000 /* ridesheet.swift */,
+				470179C92987FDC4008E2000 /* tabbar.swift */,
+				470179C72987FDB0008E2000 /* sprides.swift */,
+				470179C52987FD8F008E2000 /* addRide.swift */,
 				470179972987FD37008E2000 /* ServiceProvider */,
 				470179A92987FD39008E2000 /* ServiceProviderTests */,
 				470179B32987FD39008E2000 /* ServiceProviderUITests */,
@@ -98,8 +117,10 @@
 				470179982987FD37008E2000 /* ServiceProviderApp.swift */,
 				4701799A2987FD37008E2000 /* ContentView.swift */,
 				4701799C2987FD39008E2000 /* Assets.xcassets */,
+				470179CF298801EC008E2000 /* Roboto-Medium.ttf */,
 				470179A12987FD39008E2000 /* ServiceProvider.entitlements */,
 				4701799E2987FD39008E2000 /* Preview Content */,
+				470179C32987FD55008E2000 /* shapestruct.swift */,
 			);
 			path = ServiceProvider;
 			sourceTree = "<group>";
@@ -235,6 +256,7 @@
 			files = (
 				470179A02987FD39008E2000 /* Preview Assets.xcassets in Resources */,
 				4701799D2987FD39008E2000 /* Assets.xcassets in Resources */,
+				470179D0298801ED008E2000 /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +282,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4701799B2987FD37008E2000 /* ContentView.swift in Sources */,
+				470179CA2987FDC4008E2000 /* tabbar.swift in Sources */,
+				470179CC2987FDDC008E2000 /* ridesheet.swift in Sources */,
+				470179C82987FDB0008E2000 /* sprides.swift in Sources */,
+				470179C62987FD8F008E2000 /* addRide.swift in Sources */,
+				470179CE2987FE0D008E2000 /* sprideinitv.swift in Sources */,
 				470179992987FD37008E2000 /* ServiceProviderApp.swift in Sources */,
+				470179C42987FD55008E2000 /* shapestruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,8 +458,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = j.ServiceProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,8 +487,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = j.ServiceProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
