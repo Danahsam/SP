@@ -24,7 +24,7 @@ struct tabbar: View {
                  .tabItem {
                      Label("Search", systemImage: "magnifyingglass")
                  }
-        }
+        }.padding()
     }
 }
 

@@ -21,6 +21,7 @@
 		470179CC2987FDDC008E2000 /* ridesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470179CB2987FDDC008E2000 /* ridesheet.swift */; };
 		470179CE2987FE0D008E2000 /* sprideinitv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470179CD2987FE0D008E2000 /* sprideinitv.swift */; };
 		470179D0298801ED008E2000 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 470179CF298801EC008E2000 /* Roboto-Medium.ttf */; };
+		476B8C7F299A8682009B89D2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476B8C7E299A8682009B89D2 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		470179CB2987FDDC008E2000 /* ridesheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ridesheet.swift; sourceTree = "<group>"; };
 		470179CD2987FE0D008E2000 /* sprideinitv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sprideinitv.swift; sourceTree = "<group>"; };
 		470179CF298801EC008E2000 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		476B8C7E299A8682009B89D2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		4701798C2987FD37008E2000 = {
 			isa = PBXGroup;
 			children = (
+				476B8C7E299A8682009B89D2 /* Launch Screen.storyboard */,
 				470179CD2987FE0D008E2000 /* sprideinitv.swift */,
 				470179CB2987FDDC008E2000 /* ridesheet.swift */,
 				470179C92987FDC4008E2000 /* tabbar.swift */,
@@ -256,6 +259,7 @@
 			files = (
 				470179A02987FD39008E2000 /* Preview Assets.xcassets in Resources */,
 				4701799D2987FD39008E2000 /* Assets.xcassets in Resources */,
+				476B8C7F299A8682009B89D2 /* Launch Screen.storyboard in Resources */,
 				470179D0298801ED008E2000 /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = ServiceProvider/ServiceProvider.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -451,6 +456,10 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -472,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = ServiceProvider/ServiceProvider.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -480,6 +490,10 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
